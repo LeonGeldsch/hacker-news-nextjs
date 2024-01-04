@@ -20,6 +20,7 @@ import DarkModeSwitch from '@/components/DarkModeSwitch';
 export default function Navbar() {
   const pathname = usePathname() || '';
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const gitHubLink = 'https://github.com/LeonGeldsch/hacker-news-nextjs';
 
   const pages = [
     {
@@ -90,7 +91,7 @@ export default function Navbar() {
         </NavbarItem>
         <NavbarItem>
           <Button color="primary" variant="flat" startContent={<GitHubLogo />}>
-            <Link href="https://github.com/" isExternal showAnchorIcon>
+            <Link href={gitHubLink} isExternal showAnchorIcon>
               GitHub Repo
             </Link>
           </Button>
@@ -117,7 +118,7 @@ export default function Navbar() {
           variant="flat"
           startContent={<GitHubLogo />}
         >
-          <Link href="https://github.com/" isExternal showAnchorIcon>
+          <Link href={gitHubLink} isExternal showAnchorIcon>
             GitHub Repo
           </Link>
         </Button>
