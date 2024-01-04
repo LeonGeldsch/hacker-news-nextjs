@@ -1,4 +1,4 @@
-This is a custom frontend for the popular news site [Hacker News](https://news.ycombinator.com/) that I built for a coding challenge.
+This is a custom frontend for the popular news site [Hacker News](https://news.ycombinator.com/){:target="\_blank" rel="noopener"} that I built for a coding challenge.
 
 It is built with Next.js 14, TailwindCSS, NextUI und Jest.
 
