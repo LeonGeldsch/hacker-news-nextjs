@@ -18,8 +18,8 @@ npm test
 
 ## Complete Stack:
 
-- Next.js 14
-- TailwindCSS
-- NextUI
-- Jest
-- TypeScript
+- [Next.js 14](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [NextUI](https://nextui.org/)
+- [Jest](https://jestjs.io/)
+- [TypeScript](https://www.typescriptlang.org/)
