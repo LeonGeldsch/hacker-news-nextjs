@@ -13,6 +13,7 @@ export default async function ShowStories(props: PageWithSearchParamsProps) {
       currentPage={currentPage}
       filter="show"
       totalPages={totalPages}
+      itemsPerPage={amount}
     />
   );
 }

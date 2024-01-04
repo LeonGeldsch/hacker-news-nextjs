@@ -13,6 +13,7 @@ export default async function BestStories(props: PageWithSearchParamsProps) {
       currentPage={currentPage}
       filter="best"
       totalPages={totalPages}
+      itemsPerPage={amount}
     />
   );
 }

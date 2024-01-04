@@ -13,6 +13,7 @@ export default async function JobStories(props: PageWithSearchParamsProps) {
       currentPage={currentPage}
       filter="job"
       totalPages={totalPages}
+      itemsPerPage={amount}
     />
   );
 }
